@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="/css/styles.css" type="text/css">
+
+		<!--[if lt IE 9]>
+		<script src="/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<title>{% if page.title %}{{ page.title }}｜{% endif %}s911307.github.io</title>
+		<meta name="generator" content="Jekyll v3.9.0" />
+		<meta property="og:url" content="https://s911307.github.io/" />{% if page.title %}
+		<meta property="og:title" content="{{ page.title }}" />{% endif %}
+		<meta property="og:locale" content="zh-Hant-TW" />
+		<meta property="og:site_name" content="s911307.github.io" />
+	</head>
+	<body>
+		<style>/** div#load **/div#load{border:16px solid #f3f3f3;border-radius:50%;border-top:16px solid #3498db;width:120px;height:120px;-webkit-animation:spin 2s linear infinite;/* Safari */animation:spin 2s linear infinite;border-top: 16px solid red;border-right: 16px solid yellow;border-bottom: 16px solid green;border-left: 16px solid blue;}@-webkit-keyframes spin{0%{-webkit-transform: rotate(0deg);}100%{-webkit-transform: rotate(360deg);}}@keyframes spin{0%{transform: rotate(0deg);}100%{transform: rotate(360deg);}}</style>
+		<div id="load"></div>
+		<span id="top"></span>
+		<main>
+			<header>
+				<div class="inner">
+					<a href="https://sunchen0813.github.io/s911307.github.io/">
+						<h1>s911307.github.io</h1>
+					</a>
+				</div>
+			</header>
+
+			<div id="content-wrapper">
+				<div class="inner clearfix">
+					<section id="main-content">
+						{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+
+{{ content }}
+
+					</section>
+
+					<aside id="sidebar">
+						<p>By <a href="https://pages.github.com">pages.github.com</a>｜s911307.github.io</p>
+					</aside>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

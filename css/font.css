@@ -3,7 +3,7 @@
  * latin
  */
 @font-face {
-  font-family: 'Architects Daughter';
+  font-family: 'gbfont-sans-serif';
   font-style: normal;
   font-weight: 400;
   src: local('Architects Daughter Regular'), local('ArchitectsDaughter-Regular'), url('/fonts/Architects aughter.woff2.woff2') format('woff2');
@@ -15,7 +15,7 @@
  * cwTeXYen (Chinese Traditional)
  */
 @font-face {
-  font-family: 'cwTeXYen';
+  font-family: 'gbfont-sans-serif';
   font-style: normal;
   font-weight: 500;
   src: url('/fonts/cwTeXYen-zhonly.eot');
@@ -23,4 +23,5 @@
        url('/fonts/cwTeXYen-zhonly.woff2') format('woff2'),
        url('/fonts/cwTeXYen-zhonly.woff') format('woff'),
        url('/fonts/cwTeXYen-zhonly.ttf') format('truetype');
+  unicode-range: U+4E00-9FFF
 }

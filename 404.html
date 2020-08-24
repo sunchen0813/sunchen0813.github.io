@@ -10,9 +10,6 @@
 		<script src="/js/html5shiv.js"></script>
 		<![endif]-->
 		
-		<link rel="stylesheet" href="/css/styles.css?t={{ "now" | date: "%Y-%m-%d_%H:%M" }}" type="text/css">
-		<link rel="stylesheet" href="/css/fonts.css?t={{ "now" | date: "%Y-%m-%d_%H:%M" }}" type="text/css">
-
 		<title>404 Server Not Found</title>
 		<meta name="generator" content="Jekyll v3.9.0" />
 		<meta property="og:url" content="https://s911307.ddns.net/" />
@@ -21,13 +18,14 @@
 	</head>
 	<body>
 		<noscript>
-			<div>
+			<style>body{font-family:sans-serif;font-style:normal;text-align:center;color:#000000;background-color:#ffffff;}</style>
+			<div style="font-family:sans-serif;font-style:normal;text-align: center;">
 				<h1>404 Server Not Found</h1>
 				<hr />
 				s911307.ddns.net
 			</div>
 		</noscript>
-		<script>$(document).ready(function(){$('div#load').remove();$('main').removeClass('none');})</script>
+		<script>$(document).ready(function(){$('div#load').remove();$('main').removeClass('none').append('<link rel="stylesheet" href="/css/styles.css?t={{ "now" | date: "%Y-%m-%d_%H:%M" }}" type="text/css"><link rel="stylesheet" href="/css/fonts.css?t={{ "now" | date: "%Y-%m-%d_%H:%M" }}" type="text/css">');})</script>
 		<style>/** div#load **/div#load{display:none;border:16px solid #f3f3f3;border-radius:50%;border-top:16px solid #3498db;width:120px;height:120px;-webkit-animation:spin 2s linear infinite;/* Safari */animation:spin 2s linear infinite;border-top: 16px solid red;border-right: 16px solid yellow;border-bottom: 16px solid green;border-left: 16px solid blue;}@-webkit-keyframes spin{0%{-webkit-transform: rotate(0deg);}100%{-webkit-transform: rotate(360deg);}}@keyframes spin{0%{transform: rotate(0deg);}100%{transform: rotate(360deg);}}main.none{display:none;}</style>
 		<div id="load"></div>
 		<script>$('div#load').style.display = 'block';</script>

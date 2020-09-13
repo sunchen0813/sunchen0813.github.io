@@ -22,7 +22,7 @@
 	</head>
 	<body>
 		<noscript>
-{% if page.404 %}{% include 404.html %}{% else %}{% include def.html %}{% endif %}</noscript>
+{% if page.404 %}{% include 404.html %}{% else %}{% include def.html %}{% endif %}		</noscript>
 		<script>$(document).ready(function(){$('div#load').remove();$('div#script_error').remove();$('link').each(function(){ this.setAttribute('rel',this.dataset.rel);this.setAttribute('href',this.dataset.href);this.setAttribute('type',this.dataset.type);delete this.dataset.rel;delete this.dataset.href;delete this.dataset.type;});$('main').removeClass('none');$('noscript').remove();$('script').remove();$('style').remove();})</script>
 		<style>/** div#load **/div#load{display:none;border:16px solid #f3f3f3;border-radius:50%;border-top:16px solid #3498db;width:120px;height:120px;-webkit-animation:spin 2s linear infinite;/* Safari */animation:spin 2s linear infinite;border-top: 16px solid red;border-right: 16px solid yellow;border-bottom: 16px solid green;border-left: 16px solid blue;}@-webkit-keyframes spin{0%{-webkit-transform: rotate(0deg);}100%{-webkit-transform: rotate(360deg);}}@keyframes spin{0%{transform: rotate(0deg);}100%{transform: rotate(360deg);}}.none{display:none;}</style>
 		<div id="load"></div>
